@@ -1,0 +1,197 @@
+body
+{
+	font-family: Arial, sans-serif;
+ padding: 0;
+ margin: 0;
+ color: #000000;
+}
+.clearfix:after
+{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both; 
+	
+}
+div
+{
+	box-sizing: border-box;
+}
+header
+{
+	background: url(../images/Template_01.jpg) no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+
+.conteiner
+{
+	width: 930px;
+	margin: 0 auto;
+}
+.logo
+{
+	margin-top: 40px;
+	float: left;
+}
+nav
+{
+	float:right;
+	margin-top: 50px;
+
+}
+.menu
+{
+	padding: 0;
+	margin: 0;
+	display: block;
+
+}
+.menu li
+{
+	float:left;
+	display: block;
+	margin-right: 41px;
+}
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-right: 15px;
+
+}
+.title_first
+{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+h1
+{
+    font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;	
+	margin: 15px;
+}
+.button
+{
+	background: #fed136;
+	color:#484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+
+}
+
+.title
+{
+padding-top: 115px;
+}
+.title h2
+{
+font-size: 40px;
+text-align: center;
+font-weight: bold;
+text-transform: uppercase;
+margin: 0;
+}
+.title p
+{
+color: #777;
+text-align: center;
+font-size: 16px;
+margin-top: 5px;
+}
+.Services
+{
+margin-top: 80px;
+}
+.servic_item
+{
+width: 270px;
+float: left;
+text-align: center;
+}
+.servic_item h3
+{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.servic_item p
+{
+	color: #777777;
+	font-size: 14px;
+}
+.servic_item:last-child
+{
+	float:right;
+}
+.servic_item:nth-child(2)
+{
+	margin-left: 60px;
+}
+#portfolio
+{
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+#servicess
+{
+	padding-bottom: 120px;
+}
+
+
+.works
+{
+	margin-top: 70px;
+}
+.works img
+{
+	float: left;
+}
+.works img:last-child
+{
+	float:right;
+}
+.works img:nth-child(2)
+{
+	margin-left: 29px;
+}
+.mum
+{
+padding-top:30px;
+}
+.title_2
+{
+	width: 300px;
+	float: left;
+}
+.img_ovl
+{
+text-align: center;	
+float: left;
+margin-left: 80px;
+}
+.title_3
+{
+	width: 300px;
+	float: right;
+}
+.img_ovl1
+{
+text-align: center;	
+float: right;
+margin-right: 68px;
+}

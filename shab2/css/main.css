@@ -1,0 +1,302 @@
+
+body
+{
+font-family: Arial, sans-serif;
+ padding: 0;
+ margin: 0;
+ color: #000000;
+}
+.clearfix:after
+{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both; 
+	
+}
+div
+{
+	box-sizing: border-box;
+}
+header
+{
+
+	background:
+	linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ), url(../images/backround.png) no-repeat ;
+	height: 700px;
+	
+}
+.conteiner
+{
+	width: 930px;
+	margin: 0 auto;
+}
+.logo
+{
+	margin-top: 50px;
+	float: left;
+}
+.menu
+{
+padding: 0;
+margin: 0;
+display: block;
+}
+nav
+{
+	float: right;
+	margin-top: 55px;
+}
+.menu li
+{
+	
+	float: left;
+	display: block;
+	margin-right: 21px;
+
+}
+.menu a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size:14px;
+}
+.title
+{
+
+}
+.write_title
+{
+font-size: 40px;
+text-transform: uppercase;
+color: #ffffff;
+text-align: center;
+margin-top: 200px;
+}
+h2
+{
+font-size: 20px;
+text-transform: uppercase;
+color: #ffffff;
+text-align: center;
+margin-top: 20px;
+}
+.button
+{
+background:#ffffff;
+	border-color: #000000;
+	color: #000000;
+	opacity: .3;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.services_title
+{
+	font-size: 25px;
+	font-weight: bold;
+text-transform: uppercase;
+color: #000000;
+text-align: center;
+margin-top: 50px;
+}
+hr
+{
+	border: none; 
+    background-color: #666666; 
+    color: #666666; 
+    height: 3px; 
+    text-align: center;
+    width: 100px;
+    margin-top: 15px;
+}
+.services h3
+{
+	font-size: 20px;
+color: #666666;
+text-align: center;
+margin-top: 30px;
+padding-bottom: 40px;
+}
+.imgtitle
+{
+width: 270px;
+float: left;
+text-align: center;
+margin-top: 20px;
+}
+.but_icon
+{
+	margin-top: 20px;
+font-size: 20px;
+color: #666666;
+text-align: center;
+text-transform: uppercase;
+}
+.imgtitle h3
+{
+font-size: 14px;
+}
+.imgtitle:last-child
+{
+	float: right;
+}
+.imgtitle:nth-child(2)
+{
+	margin-left: 63px;
+}
+.qwe
+{
+	
+text-align: center;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 150px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row h3
+{
+	font-size: 14px;
+	color: #666666;
+}
+.picture
+{
+	width: 200px;
+	float: left;
+}
+.picture h3
+{
+	text-align: center;
+}
+.picture p
+{
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+}
+.picture:last-child
+{
+	float: right;
+}
+.picture:nth-child(2)
+{
+	margin-left: 155px;
+}
+.cent_menu
+{
+	float: right;
+	padding-top: 20px;
+	padding-right: 240px;
+	padding-bottom: 30px;
+}
+.menu2 li
+{
+	
+	float: left;
+	display: block;
+	margin-right: 21px;
+
+}
+.menu2 a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #666666;
+	font-size:14px;
+}
+.galer
+{
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.galer img
+{
+	width:250px;
+	height: 250px;
+    margin-right: 20px; /* Отступ справа */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+.reack
+{
+	padding-top: 30px;
+	background: 
+	linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)),
+	url(../images/middle_back.png) no-repeat ;
+	height: 300px;
+	padding-bottom: 40px;
+}
+.write_title_mid
+{
+font-size: 20px;
+text-transform: uppercase;
+color: #ffffff;
+text-align: center;
+margin-top: 90px;
+}
+.button
+{
+background:#ffffff;
+	border-color: #000000;
+	color: #000000;
+	opacity: .3;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.foto1
+{
+	width: 350px;
+	float: left;
+}
+.title_block
+{
+
+	width: 500px;
+	float: right;
+	margin-right: 50px;
+}
+.square {
+width: 80px;	height: 80px; /* Размеры */
+    background-color: transparent; /* Цвет фона */
+    outline: 2px solid #666666; /* Чёрная рамка */
+   padding: 0;
+}
+.square p
+{
+	font-size: 20px;
+    color: #666666;
+    
+    text-transform: uppercase;
+}
